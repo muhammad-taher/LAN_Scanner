@@ -1,7 +1,3 @@
-Here’s a clean, professional, and GitHub-ready README for your ARP Network Scanner project:
-
----
-
 # **Simple C++ ARP Network Scanner**
 
 A lightweight, multi-threaded ARP network scanner built in C++ using raw sockets.
