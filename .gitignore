@@ -1,0 +1,30 @@
+Prerequisites
+
+*.d
+
+Compiled Object files
+
+*.o
+*.obj
+
+Precompiled Headers
+
+*.gch
+*.pch
+
+Executables
+
+*.exe
+*.out
+netscanner
+my_scanner_test
+a.out
+
+VS Code Settings (Optional)
+
+.vscode/
+
+OS Generated files
+
+.DS_Store
+Thumbs.db
