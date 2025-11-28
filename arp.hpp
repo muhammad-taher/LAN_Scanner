@@ -12,6 +12,7 @@ using namespace std;
 #define ETH_HDRLEN 14
 #define ARP_HDRLEN 28
 
+#pragma pack(push, 1)
 
 struct arp_hdr{
     uint16_t htype;
@@ -25,6 +26,8 @@ struct arp_hdr{
     array<uint8_t,6>target_mac;
     array<uint8_t,4>target_ip;
 };
+
+#pragma pack(pop)
 
 void sendARPRequest(int sd, struct Localinfo &local_info);
 void rcvARPReply(int sd,map<array<uint8_t,4>,array<uint8_t,6>>&ip_mac_pairs);

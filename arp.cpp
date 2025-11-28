@@ -49,7 +49,7 @@ void sendARPRequest(int sd,struct Localinfo &local_info){
         if((sendto(sd,buffer,frameLength,0,(struct sockaddr*)&dev,sizeof(dev)))<=0){
             perror("sendto() Failed");
         }
-        usleep(2000);
+        usleep(50000);
     }
 
 }
